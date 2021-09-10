@@ -16,7 +16,7 @@
 
 ### Access Kibana
 
-Access to localhost:5601 by your favorite browser
+Access to [localhost:5601](http://localhost:5601) by your favorite browser
 
 ### Import data
 
