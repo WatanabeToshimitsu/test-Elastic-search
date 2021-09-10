@@ -59,5 +59,7 @@ Dev Tools ease to write query. You can access the tool from menu > Management
 ## Reference
 
 https://qiita.com/satto_sann/items/0ccb1f28af8b3f103949
+
 https://kumano-te.com/activities/test-elasticsearch-full-text-en-and-ja
+
 https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-kuromoji-analyzer.html
