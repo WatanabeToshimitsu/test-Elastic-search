@@ -52,10 +52,6 @@ Access to [localhost:5601](http://localhost:5601) by your favorite browser
 
 Dev Tools ease to write query. You can access the tool from menu > Management
 
-## Further more...
-
-[Read docs!!!](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-your-data.html)
-
 ## Reference
 
 https://qiita.com/satto_sann/items/0ccb1f28af8b3f103949
