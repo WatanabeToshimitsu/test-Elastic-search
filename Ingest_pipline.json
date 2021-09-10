@@ -1,0 +1,82 @@
+{
+  "description": "Ingest pipeline created by text structure finder",
+  "processors": [
+    {
+      "csv": {
+        "field": "message",
+        "target_fields": [
+          "jis",
+          "old_postcode",
+          "postcode",
+          "prefecture_kana",
+          "city_kana",
+          "town_area_kana",
+          "prefecture",
+          "city",
+          "town_area",
+          "is_one_town_by_multi_post_code",
+          "is_need_small_area_address",
+          "is_chrome",
+          "is_multi_town_by_one_postcode",
+          "updated",
+          "update_reason"
+        ],
+        "ignore_missing": false
+      }
+    },
+    {
+      "convert": {
+        "field": "is_chrome",
+        "type": "long",
+        "ignore_missing": true
+      }
+    },
+    {
+      "convert": {
+        "field": "is_multi_town_by_one_postcode",
+        "type": "long",
+        "ignore_missing": true
+      }
+    },
+    {
+      "convert": {
+        "field": "is_need_small_area_address",
+        "type": "long",
+        "ignore_missing": true
+      }
+    },
+    {
+      "convert": {
+        "field": "is_one_town_by_multi_post_code",
+        "type": "long",
+        "ignore_missing": true
+      }
+    },
+    {
+      "convert": {
+        "field": "jis",
+        "type": "long",
+        "ignore_missing": true
+      }
+    },
+    {
+      "convert": {
+        "field": "update_reason",
+        "type": "long",
+        "ignore_missing": true
+      }
+    },
+    {
+      "convert": {
+        "field": "updated",
+        "type": "long",
+        "ignore_missing": true
+      }
+    },
+    {
+      "remove": {
+        "field": "message"
+      }
+    }
+  ]
+}

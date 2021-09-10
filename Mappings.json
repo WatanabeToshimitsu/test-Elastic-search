@@ -1,0 +1,57 @@
+{
+  "properties": {
+    "city": {
+      "type": "text",
+      "analyzer": "kuromoji_normalize"
+    },
+    "city_kana": {
+      "type": "text",
+      "analyzer": "kuromoji_normalize"
+    },
+    "is_chrome": {
+      "type": "long"
+    },
+    "is_multi_town_by_one_postcode": {
+      "type": "long"
+    },
+    "is_need_small_area_address": {
+      "type": "long"
+    },
+    "is_one_town_by_multi_post_code": {
+      "type": "long"
+    },
+    "jis": {
+      "type": "long"
+    },
+    "old_postcode": {
+      "type": "text",
+      "analyzer": "kuromoji_normalize"
+    },
+    "postcode": {
+      "type": "text",
+      "analyzer": "kuromoji_normalize"
+    },
+    "prefecture": {
+      "type": "text",
+      "analyzer": "kuromoji_normalize"
+    },
+    "prefecture_kana": {
+      "type": "text",
+      "analyzer": "kuromoji_normalize"
+    },
+    "town_area": {
+      "type": "text",
+      "analyzer": "kuromoji_normalize"
+    },
+    "town_area_kana": {
+      "type": "text",
+      "analyzer": "kuromoji_normalize"
+    },
+    "update_reason": {
+      "type": "long"
+    },
+    "updated": {
+      "type": "long"
+    }
+  }
+}
